@@ -85,7 +85,7 @@ section#galeria{
 
 section#galeria a{
     display: block;
-    background: url(/imagens/fundo-foto.png) no-repeat;
+    /*background: url(/imagens/fundo-foto.png) no-repeat;*/
     float:left;
     padding: 17px 15px 17px 15px;
     margin: 10px 0 0 20px;
@@ -170,4 +170,35 @@ footer{
 }
 footer p a{
     padding: 2px 10px;
+}
+
+/***estilzação da pagina expsicoes***/
+
+#texto-expo{
+    float: left;
+}
+
+#lateral-expo{
+    display: inline;
+    float: right;
+    margin-top: 200px;
+    margin-right: 42px;
+    width: 300px;
+}
+
+#temas h4{
+    text-align: center;
+}
+
+.img-temas{
+    width: 200px;
+}
+
+#ul-expo{
+    list-style: none;
+}
+
+#outras{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
