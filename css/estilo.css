@@ -1,8 +1,8 @@
 body{
     background: #f4f2ec url(../imagens/fundo.png) repeat-x;
-    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    font: 15px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 }
-
+/*links gerais*/
 a:link, a:active, a:visited{
     color: #af670a;
     text-decoration: none;
@@ -12,10 +12,12 @@ a:hover{
     color: #227115;
 }
 
-#container{
+/*classe conatiner*/
+.container{
     width: 1080px;
     margin: 0 auto;
 }
+
 
 #logo h1{
     float: left;
@@ -85,7 +87,7 @@ section#galeria{
 
 section#galeria a{
     display: block;
-    /*background: url(/imagens/fundo-foto.png) no-repeat;*/
+    background: url(/imagens/fundo-foto.png) no-repeat;
     float:left;
     padding: 17px 15px 17px 15px;
     margin: 10px 0 0 20px;
@@ -178,7 +180,7 @@ footer p a{
     float: left;
 }
 
-#lateral-expo{
+.lateral{
     display: inline;
     float: right;
     margin-top: 200px;
@@ -187,7 +189,8 @@ footer p a{
 }
 
 #temas h4{
-    text-align: center;
+    margin-left: 41px;
+    text-align: left;
 }
 
 .img-temas{
@@ -201,4 +204,30 @@ footer p a{
 #outras{
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+
+/**estilização pagina pesquisa*/
+.bolinha{
+    list-style: none;
+}
+
+.lista-lateral{
+    margin-left: -20px;
+}
+.lista-lateral ul li:before{
+    content: '\2022';
+    margin: 0 2px;
+    color: #86521a /* cor da bolinha */
+}
+
+.lista-lateral h4{
+    margin-left: 45px;
+    text-align: left;
+}
+
+/***acervo**/
+#video-acervo{
+    margin-left: 45px;
+    margin-top: 25px;
 }
